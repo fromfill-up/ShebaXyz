@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | Join Our Team</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .closed-job { filter: grayscale(1); opacity: 0.7; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="logo.png" alt="Company Logo" class="h-10 w-auto object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span style="display:none;" class="text-xl font-bold text-blue-600 uppercase tracking-tighter">Your Logo</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+                <span></span>
+                <span></span>
+                <span class="text-blue-600"></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="bg-white py-20 px-6">
+        <div class="container mx-auto text-center max-w-3xl">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Join Our Team</h1>
+            <p class="text-xl text-gray-500 mb-10">Work remotely and grow your career with us.</p>
+            <a href="#jobs" class="bg-blue-600 text-white px-8 py-4 rounded-full font-semibold shadow-lg inline-block">
+                View Open Positions
+            </a>
+        </div>
+    </section>
+
+    <section id="jobs" class="py-20 container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Current Opportunities</h2>
+        
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            
+            <div class="bg-white p-8 rounded-2xl shadow-md border-2 border-blue-100 relative">
+                <div class="flex justify-between items-start mb-4">
+                    <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full uppercase">Open</span>
+                    <span class="text-sm font-semibold text-gray-400">Remote</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-2">Customer Support Executive</h3>
+                <p class="text-blue-600 font-semibold mb-4 italic">10,000 – 18,000 BDT</p>
+                
+                <div class="mb-6">
+                    <h4 class="font-bold text-xs uppercase text-gray-400 mb-2">Job Description</h4>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• Handle customer queries via chat/email</li>
+                        <li>• Maintain professional communication</li>
+                        <li>• Resolve customer issues efficiently</li>
+                    </ul>
+                </div>
+
+                <div class="mb-8">
+                    <h4 class="font-bold text-xs uppercase text-gray-400 mb-2">Requirements</h4>
+                    <p class="text-gray-600 text-sm">Basic computer knowledge and stable internet connection.</p>
+                </div>
+
+                <a href="form.html" class="block w-full text-center bg-blue-600 text-white py-3 rounded-lg font-bold">
+                    Apply Now
+                </a>
+            </div>
+
+            <div class="bg-gray-100 p-8 rounded-2xl border border-gray-200 closed-job">
+                <span class="bg-gray-300 text-gray-600 text-xs font-bold px-3 py-1 rounded-full uppercase">Closed</span>
+                <h3 class="text-2xl font-bold mt-4 mb-2 text-gray-400">Data Entry Operator</h3>
+                <p class="text-gray-400 text-sm mb-12 italic">Application period ended</p>
+                <button disabled class="w-full bg-gray-300 text-gray-500 py-3 rounded-lg font-bold cursor-not-allowed uppercase text-sm">Closed</button>
+            </div>
+
+            <div class="bg-gray-100 p-8 rounded-2xl border border-gray-200 closed-job">
+                <span class="bg-gray-300 text-gray-600 text-xs font-bold px-3 py-1 rounded-full uppercase">Closed</span>
+                <h3 class="text-2xl font-bold mt-4 mb-2 text-gray-400">Sales Executive</h3>
+                <p class="text-gray-400 text-sm mb-12 italic">Application period ended</p>
+                <button disabled class="w-full bg-gray-300 text-gray-500 py-3 rounded-lg font-bold cursor-not-allowed uppercase text-sm">Closed</button>
+            </div>
+
+            <div class="bg-gray-100 p-8 rounded-2xl border border-gray-200 closed-job">
+                <span class="bg-gray-300 text-gray-600 text-xs font-bold px-3 py-1 rounded-full uppercase">Closed</span>
+                <h3 class="text-2xl font-bold mt-4 mb-2 text-gray-400">Marketing Assistant</h3>
+                <p class="text-gray-400 text-sm mb-12 italic">Application period ended</p>
+                <button disabled class="w-full bg-gray-300 text-gray-500 py-3 rounded-lg font-bold cursor-not-allowed uppercase text-sm">Closed</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 px-6">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0">
+                <p class="text-gray-400 text-sm">Contact: career.sheba.xyz@gmail.com</p>
+            </div>
+            <div class="flex space-x-6 text-sm font-medium text-gray-500">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-600 text-xs uppercase tracking-widest font-semibold">
+            &copy; 2026 Sheba xyz. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
